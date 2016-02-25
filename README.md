@@ -1,5 +1,5 @@
 # figaro-dbxml-shell
-The dbxml shell is instrumental for Oracle Berkeley DB XML (OBDBXML) developers allowing users to run the most common administrative and maintenance tasks, such as creating containers and querying content.
+The dbxml shell is instrumental for Oracle Berkeley DB XML developers allowing users to run the most common administrative and maintenance tasks, such as creating containers and querying content.
 
 This version of the dbxml utility has been re-written as a .NET console application using the Figaro library at [http://bdbxml.net]. It is not guaranteed to be 100% compatible with the original dbxml utility that comes with Oracle Berkeley DB XML; in fact, several opportunities were taken to make it easier to use and more feature rich. The original help documentation for this shell (as well as the Figaro library itself) can be found at [http://help.bdbxml.net/html/1a2e0897-5978-4803-b8f2-d2891b24397e.htm].
 
