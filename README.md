@@ -3,9 +3,11 @@ The dbxml shell is instrumental for Oracle Berkeley DB XML (OBDBXML) developers 
 
 This version of the dbxml utility has been re-written as a .NET console application using the Figaro library at [http://bdbxml.net]. It is not guaranteed to be 100% compatible with the original dbxml utility that comes with Oracle Berkeley DB XML; in fact, several opportunities were taken to make it easier to use and more feature rich. The original help documentation for this shell (as well as the Figaro library itself) can be found at [http://help.bdbxml.net/html/1a2e0897-5978-4803-b8f2-d2891b24397e.htm].
 
-<Please test and verify any scripts made with the original version before using in a production environment.
+> Please test and verify any scripts made with the original version before using in a production environment.
 
 The dbxml utility provides an interactive shell that you can use to manipulate containers, documents and indices, and to perform XQuery queries against those containers.
+
+> Included in this source code repository is an extension for syntaxi highlighting for Notepad++. You can find this in the `extras` folder.
 
 dbxml uses an optional Berkeley DB home (environment) directory, which defaults to the current directory. An attempt is made to join an existing environment; if that fails, a private environment is created in the specified location. dbxml has a concept of a default open container; that is, the container upon which container operations such as adding and deleting indices are performed. The default container is set by use of the createContainer and openContainer commands. An in-memory container can be created using the command, `createContainer ""`. This is useful for using dbxml without file system side effects.
 
@@ -44,7 +46,7 @@ dbxml> putDocument a {<a><b name="doc3">doc3 n1</b><c>doc3 n2</c></a>}
 dbxml> query collection("myContainer.dbxml")/a/b
 dbxml> print
 ```
->When using the putDocument command, be sure to use forward slashes ('/') in your paths, and not the backslash ('\'), or you may get a streaming error.
+> When using the putDocument command, be sure to use forward slashes ('/') in your paths, and not the backslash ('\'), or you may get a streaming error.
 
 If you are using dbxml to manipulate containers that are managed by an existing database environment, you must specify the path to that existing database environment. dbxml cannot be used to create environment files that can be shared with other applications. It will either create a private environment, or join an existing, shareable environment created by another application.
 
@@ -207,7 +209,7 @@ Usage: `delIndex [<nodeNamespaceUri> <nodeName>] <indexDescription>`
 
 If the namespaceUri and nodeName are not set, then this command deletes from the default index.
 
->You cannot delete the default node index in a container.
+> You cannot delete the default node index in a container.
 
 Parameter | Description
 --- | ---
@@ -415,7 +417,7 @@ Insert a document one of three ways:
 
 ##putDocuments
 Put a collection of documents found in the specified directory, with the optional file filter, into the default container.
->This command incorporates the files names, without the file extensions, from the file system when inserting into the container. If a file already exists with the same name in the container, an exception will be thrown and processing will stop.
+> This command incorporates the files names, without the file extensions, from the file system when inserting into the container. If a file already exists with the same name in the container, an exception will be thrown and processing will stop.
 
 Usage: `putDocuments <directory> [filter]`
 
@@ -520,7 +522,7 @@ Remove a document from the default container.
 
 Usage: `removeDocument <docName>`
 
->Document names are used in both node and document container types.
+> Document names are used in both node and document container types.
 
 Parameter|Description
 ---|---
@@ -617,8 +619,8 @@ Enables or disables the use of the document projection optimization.
 
 Usage: `setProjection <on|off>`
 
->Document projection uses static analysis of the query to materialize only those portions of the document relevant to the query, which can significantly enhance performance of queries against documents from Wholedoc containers and documents not in a container.
->It should not be used if arbitrary navigation of the resulting nodes is to be performed, as not all nodes in the original document will be present and unexpected results could be returned.
+> Document projection uses static analysis of the query to materialize only those portions of the document relevant to the query, which can significantly enhance performance of queries against documents from Wholedoc containers and documents not in a container.
+> It should not be used if arbitrary navigation of the resulting nodes is to be performed, as not all nodes in the original document will be present and unexpected results could be returned.
 
 ##setQueryTimeout
 Set a query timeout in seconds in the default context.
@@ -693,7 +695,7 @@ This command syncs the current container to disk.
 
 Wrap a shell command in a wall-clock timer.
 
->The `echo`, `help`, and `setIgnore` commands do not respond to the time command.
+> The `echo`, `help`, and `setIgnore` commands do not respond to the time command.
 
 If the verbose switch is enabled for the shell, the `time` command output is always generated.
 

@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbxml_shell", "dbxml_shell.csproj", "{C110B80A-EC86-43D9-A46C-EC24036092A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DebugCDS|Win32 = DebugCDS|Win32
+		DebugCDS|x64 = DebugCDS|x64
+		DebugCDS|x86 = DebugCDS|x86
+		DebugDS|Win32 = DebugDS|Win32
+		DebugDS|x64 = DebugDS|x64
+		DebugDS|x86 = DebugDS|x86
+		DebugHA|Win32 = DebugHA|Win32
+		DebugHA|x64 = DebugHA|x64
+		DebugHA|x86 = DebugHA|x86
+		DebugTDS|Win32 = DebugTDS|Win32
+		DebugTDS|x64 = DebugTDS|x64
+		DebugTDS|x86 = DebugTDS|x86
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		ReleaseCDS|Win32 = ReleaseCDS|Win32
+		ReleaseCDS|x64 = ReleaseCDS|x64
+		ReleaseCDS|x86 = ReleaseCDS|x86
+		ReleaseDS|Win32 = ReleaseDS|Win32
+		ReleaseDS|x64 = ReleaseDS|x64
+		ReleaseDS|x86 = ReleaseDS|x86
+		ReleaseHA|Win32 = ReleaseHA|Win32
+		ReleaseHA|x64 = ReleaseHA|x64
+		ReleaseHA|x86 = ReleaseHA|x86
+		ReleaseTDS|Win32 = ReleaseTDS|Win32
+		ReleaseTDS|x64 = ReleaseTDS|x64
+		ReleaseTDS|x86 = ReleaseTDS|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Debug|Win32.ActiveCfg = DebugDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Debug|Win32.Build.0 = DebugDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Debug|x64.ActiveCfg = DebugDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Debug|x64.Build.0 = DebugDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Debug|x86.ActiveCfg = DebugDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Debug|x86.Build.0 = DebugDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugCDS|Win32.ActiveCfg = DebugCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugCDS|Win32.Build.0 = DebugCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugCDS|x64.ActiveCfg = DebugCDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugCDS|x64.Build.0 = DebugCDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugCDS|x86.ActiveCfg = DebugCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugCDS|x86.Build.0 = DebugCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugDS|Win32.ActiveCfg = DebugDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugDS|Win32.Build.0 = DebugDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugDS|x64.ActiveCfg = DebugDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugDS|x64.Build.0 = DebugDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugDS|x86.ActiveCfg = DebugDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugDS|x86.Build.0 = DebugDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugHA|Win32.ActiveCfg = DebugHA|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugHA|Win32.Build.0 = DebugHA|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugHA|x64.ActiveCfg = DebugHA|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugHA|x64.Build.0 = DebugHA|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugHA|x86.ActiveCfg = DebugDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugHA|x86.Build.0 = DebugDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugTDS|Win32.ActiveCfg = DebugTDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugTDS|Win32.Build.0 = DebugTDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugTDS|x64.ActiveCfg = DebugTDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugTDS|x64.Build.0 = DebugTDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugTDS|x86.ActiveCfg = DebugTDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.DebugTDS|x86.Build.0 = DebugTDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Release|Win32.ActiveCfg = ReleaseCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Release|Win32.Build.0 = ReleaseCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Release|x64.ActiveCfg = ReleaseCDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Release|x64.Build.0 = ReleaseCDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Release|x86.ActiveCfg = ReleaseCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.Release|x86.Build.0 = ReleaseCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseCDS|Win32.ActiveCfg = ReleaseCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseCDS|Win32.Build.0 = ReleaseCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseCDS|x64.ActiveCfg = ReleaseCDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseCDS|x64.Build.0 = ReleaseCDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseCDS|x86.ActiveCfg = ReleaseCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseCDS|x86.Build.0 = ReleaseCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseDS|Win32.ActiveCfg = ReleaseDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseDS|Win32.Build.0 = ReleaseDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseDS|x64.ActiveCfg = ReleaseDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseDS|x64.Build.0 = ReleaseDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseDS|x86.ActiveCfg = ReleaseDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseDS|x86.Build.0 = ReleaseDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseHA|Win32.ActiveCfg = ReleaseHA|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseHA|Win32.Build.0 = ReleaseHA|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseHA|x64.ActiveCfg = ReleaseHA|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseHA|x64.Build.0 = ReleaseHA|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseHA|x86.ActiveCfg = ReleaseCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseHA|x86.Build.0 = ReleaseCDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseTDS|Win32.ActiveCfg = ReleaseTDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseTDS|Win32.Build.0 = ReleaseTDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseTDS|x64.ActiveCfg = ReleaseTDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseTDS|x64.Build.0 = ReleaseTDS|x64
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseTDS|x86.ActiveCfg = ReleaseTDS|x86
+		{C110B80A-EC86-43D9-A46C-EC24036092A8}.ReleaseTDS|x86.Build.0 = ReleaseTDS|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = cc31087d-b368-45ed-8a4d-8adef75b1d23
+	EndGlobalSection
+EndGlobal

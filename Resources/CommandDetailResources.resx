@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="abort" xml:space="preserve">
+    <value>This command is only available in Figaro Transactional Data Storage (TDS) edition.</value>
+  </data>
+  <data name="addalias" xml:space="preserve">
+    <value />
+  </data>
+  <data name="addindex" xml:space="preserve">
+    <value>If the namespaceUri and name are not set, then this command adds to the default index.
+
+The index description must be in  [unique]-{path type}-{node type}-{key type}-{syntax type} format, where:
+
+unique: 
+	unique - specify explicitly if the index is for unique values.
+path type: 
+	node - index all instances where a node appears.
+	edge - index a specific node according to the specified path.
+node type:
+	element 	- an XML element
+	attribute 	- an XML attribute
+	metadata 	- XML document metadata
+key type:
+	equality 	- look for nodes with a specific value
+	presence	- look for the existence of a node,
+				  regardless of value
+	Substring	- look for nodes containing a given sub-
+				  string. This key type is best used for 
+				  queries using the XQuery contains() 
+				  substring function.
+syntax type:
+	anySimpleType,anyUri,base64Binary,binary,boolean,date,
+	dateTime,daytimeDuration,decimal,double,duration,
+	float,gDay,gMonth,gYear,gYearMonth,hexBinary,
+	node,none,notation,qName,string,time,untypedAtomic,
+	yearMonthDuration</value>
+  </data>
+  <data name="append" xml:space="preserve">
+    <value>??????????????????????????????????????/</value>
+  </data>
+  <data name="close" xml:space="preserve">
+    <value>Closes the container if the dbxml shell has it open.</value>
+  </data>
+  <data name="commit" xml:space="preserve">
+    <value />
+  </data>
+  <data name="compactcontainer" xml:space="preserve">
+    <value>This command takes a long time on large containers. Containers should be backed up first before running this command.</value>
+  </data>
+  <data name="contextquery" xml:space="preserve">
+    <value>This command runs against the most recent results. An XmlQueryExpression object is created using the Prepare() command, and executes against the last resultset returned prior to the execution of this command.</value>
+  </data>
+  <data name="cquery" xml:space="preserve">
+    <value>This command is run against the default container using the Container.Query() method.</value>
+  </data>
+  <data name="createcontainer" xml:space="preserve">
+    <value>Creates a new default container; the old default is closed.
+The default is to create a node storage container with node indexes.
+A second argument of "d" creates a Wholedoc storage container, and
+"id" creates a document storage container with node indexes.
+A second argument of "n" creates a node storage container, and
+"in" creates a node storage container with node indexes.
+The optional third argument indicates whether or not to validate
+documents on insertion.
+A containerName of "" creates an in-memory container.
+This command uses the XmlManager.CreateContainer() method.</value>
+  </data>
+  <data name="delindex" xml:space="preserve">
+    <value>If the namespaceUri and name are not set, then this command
+deletes from the default index. This command uses the XmlContainer.DeleteIndex()
+and XmlContainer.DeleteDefaultIndex() commands.</value>
+  </data>
+  <data name="echo" xml:space="preserve">
+    <value>This command echoes the specified text, followed by a new line.</value>
+  </data>
+  <data name="getdocuments" xml:space="preserve">
+    <value>If docName is set, it is looked up in the default container.
+If no arguments are used, all documents in the container are
+looked up and placed in the results.
+The result document names and/or content can be displayed using
+the 'print' command.</value>
+  </data>
+  <data name="getmetadata" xml:space="preserve">
+    <value>Get a metadata item or a list of named metadata items
+from the named document.  This method
+resets the default results to the returned value.
+This command, when used to get a specific item,
+is equivalent to the query expression:
+        for $i in doc('containerName/docName')
+        return dbxml:metadata('metaDataUri:metaDataName', $i)</value>
+  </data>
+  <data name="help" xml:space="preserve">
+    <value>If no command is specified, then help prints a summary of the commands available.</value>
+  </data>
+  <data name="info" xml:space="preserve">
+    <value>This command returns information on the shell state and the default container. 
+If the 'preload' command is used prior to this command, 
+information on pre-loaded containers, if any, will be 
+returned.</value>
+  </data>
+  <data name="listindexes" xml:space="preserve">
+    <value>This command calls the Container.GetIndexSpecification()
+method and iterates over the indexes available.</value>
+  </data>
+  <data name="lookupedgeindex" xml:space="preserve">
+    <value>Valid operations are '&lt;', '&lt;=', '&gt;', '&gt;=' and '=', and the default
+operation is '='. Indexes available can be found using the
+'listIndexes' command.
+
+Example -- look up elements called "a" with a parent called "b"
+on an edge presence index:
+
+        lookupEdgeIndex edge-element-presence "" a "" b
+
+Example -- look up elements called "a" with a parent called "b"
+and a value smaller than 5 on an edge equality decimal index:
+
+        lookupEdgeIndex edge-element-equality-decimal \
+            "" a "" b &lt; 5</value>
+  </data>
+  <data name="lookupindex" xml:space="preserve">
+    <value>Valid operations are '&lt;', '&lt;=', '&gt;', '&gt;=' and '=', and the default
+operation is '='. Indexes available can be found using the
+'listIndexes' command.
+
+Example -- look up all documents in document name index:
+
+        lookupIndex node-metadata-equality-string \
+            http://www.sleepycat.com/2002/dbxml name
+
+Example -- look up a specific document in document name index:
+
+        lookupIndex node-metadata-equality-string \
+            http://www.sleepycat.com/2002/dbxml name myDocument</value>
+  </data>
+  <data name="lookupstats" xml:space="preserve">
+    <value>Example -- lookup statistics  in document name index:
+        lookupStats node-metadata-equality-string \
+            http://www.sleepycat.com/2002/dbxml name
+Example -- lookup stats for a specific document in name index:
+        lookupStats node-metadata-equality-string \
+            http://www.sleepycat.com/2002/dbxml name "" "" myDocument
+The optional parent URI and name are used for edge indexes
+Indexes available can be found using the 'listIndexes' command.</value>
+  </data>
+  <data name="opencontainer" xml:space="preserve">
+    <value />
+  </data>
+  <data name="preload" xml:space="preserve">
+    <value>Opens the container and holds it in memory for 
+the duration of the shell's lifetime.</value>
+  </data>
+  <data name="prepare" xml:space="preserve">
+    <value />
+  </data>
+  <data name="print" xml:space="preserve">
+    <value>If "print" is used, the most recent results are printed.
+If the "printNames" form is used, the results are turned
+into document names and printed, if possible.  If the results
+cannot be converted, the command will fail.  If the optional
+argument "n" is specified followed by a number, then only the
+specified number of results are printed. If the optional
+pathToFile parameter is specified, the output is written to
+the named file, rather than to stdout.</value>
+  </data>
+  <data name="putdocument" xml:space="preserve">
+    <value>Insert a new document in one of 3 ways:
+         By string content (the default, specify "s")
+         By filename.  String is a file name, specify "f"
+         By XQuery.  String is an XQuery expression, specify "q"
+If adding by XQuery, a document is added for each result
+returned by the expression, and a unique name is generated.  
+If adding by string or file, a generated name isn't created,
+and the insertion will fail if the specified name is not unique
+within the default container.</value>
+  </data>
+  <data name="putdocuments" xml:space="preserve">
+    <value>Inserts documents from a directory into the current container. 
+The utility will scan the given directory for files using either 
+the default filter (*.xml) or the specified directory 
+filter. All documents found will be inserted into the container.</value>
+  </data>
+  <data name="query" xml:space="preserve">
+    <value>Execute the given XQuery statement.</value>
+  </data>
+  <data name="queryplan" xml:space="preserve">
+    <value>This command parses the queryExpression into an
+XmlQueryExpression, and calls getQueryPlan().
+If the optional pathToFile paramter is specified
+the output is printed to the specified file.</value>
+  </data>
+  <data name="reindexcontainer" xml:space="preserve">
+    <value>This command uses the XmlManager.ReindexContainer() method
+to recreate the indexes on the container. It will also
+change the indexing type of the container, based on the
+second argument. 'n' means node indexes and 'd' means
+document level indexes.
+This command can take a long time on large containers.
+Containers must be closed, and should be backed up
+before running this command.</value>
+  </data>
+  <data name="removealias" xml:space="preserve">
+    <value />
+  </data>
+  <data name="removecontainer" xml:space="preserve">
+    <value>Removes the named container.  The container must not be
+open, or the command will fail.  If the container is
+the current container or pre-loaded by the shell, 
+the current results and container are released 
+in order to perform the operation.</value>
+  </data>
+  <data name="removedocument" xml:space="preserve">
+    <value />
+  </data>
+  <data name="setautoindexing" xml:space="preserve">
+    <value>Sets the auto-indexing state to the specified value.</value>
+  </data>
+  <data name="setbaseuri" xml:space="preserve">
+    <value>The base URI must be of the form 'scheme:path'.
+If there is no argument, the current base URI is used.</value>
+  </data>
+  <data name="setignore" xml:space="preserve">
+    <value>When set on, errors from commands in dbxml shell
+scripts will be ignored.  When off, they will cause
+termination of the script.  Default is off.</value>
+  </data>
+  <data name="setlazy" xml:space="preserve">
+    <value>Sets the evaluation type on the QueryContext used by the shell.</value>
+  </data>
+  <data name="setmetadata" xml:space="preserve">
+    <value>Set a metaData item for the named document from the string value.
+Example: setMetaData myDoc  myMD 100</value>
+  </data>
+  <data name="setnamespace" xml:space="preserve">
+    <value />
+  </data>
+  <data name="setprojection" xml:space="preserve">
+    <value />
+  </data>
+  <data name="setquerytimeout" xml:space="preserve">
+    <value />
+  </data>
+  <data name="setvariable" xml:space="preserve">
+    <value>Use this command to create or set the values of untyped variables.</value>
+  </data>
+  <data name="setverbose" xml:space="preserve">
+    <value>Level is used to set the verbosity output of the 
+XML database library itself. Output will be sent 
+to the console.
+Using 0 0 turns vebosity off.  Values of -1 -1 turn on
+maximum verbosity.  The values are masks, from enumerations
+in the library, and can be combined.  For example, to
+turn on INDEXER and optimizer messages, use a category of 0x03.
+Output for XQuery's fn:trace() function is enabled using LEVEL_INFO and CATEGORY
+_QUERY.
+Numbers can be decimal or hex.  Non-zero level values are:
+        0x01 -- LEVEL_DEBUG -- program execution tracing
+        0x02 -- LEVEL_INFO -- informational messages
+        0x04 -- LEVEL_WARNING -- recoverable warnings
+        0x08 -- LEVEL_ERROR -- unrecoverable errors
+        -1 -- LEVEL_ALL --everything
+Non-zero categories are:
+        0x01 -- CATEGORY_INDEXER -- messages from the indexer
+        0x02 -- CATEGORY_QUERY -- messages from the query processor
+        0x04 -- CATEGORY_OPTIMIZER -- messages from the query optimizer
+        0x08 -- CATEGORY_DICTIONARY -- messages from the name dictionary
+        0x10 -- CATEGORY_CONTAINER -- messages from container management
+        0x20 -- CATEGORY_NODESTORE -- messages from node storage management
+        0x40 -- CATEGORY_MANAGER -- messages from the manager
+        -1 -- CATEGORY_ALL -- everything</value>
+  </data>
+  <data name="sync" xml:space="preserve">
+    <value>This command syncs the current container to disk.</value>
+  </data>
+  <data name="time" xml:space="preserve">
+    <value>This command wraps a timer around the specified command
+and times its execution.</value>
+  </data>
+  <data name="transaction" xml:space="preserve">
+    <value>Any transaction already in force is committed.</value>
+  </data>
+  <data name="upgradecontainer" xml:space="preserve">
+    <value>Upgrades containers to the latest Berkeley DB container 
+specifications. This operation can take a long time on longer 
+containers. Containers should be backed up before performing 
+this method.</value>
+  </data>
+</root>
